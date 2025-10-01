@@ -2,7 +2,7 @@ package Pekan4;
 
 import java.util.Scanner;
 
-public class LatIf {
+public class LatIf1 {
 
 	public static void main(String[] args) {
 		double IPK;
