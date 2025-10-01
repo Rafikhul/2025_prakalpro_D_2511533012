@@ -11,9 +11,9 @@ public class Nilai {
 		nilai=input.nextInt();
 		input.close();
 		
-		if (nilai >=81) {
+		if (nilai >= 81) {
 			System.out.println("A");
-		} else if (nilai >=70) {
+		} else if (nilai >= 70) {
 			System.out.println("B");
 		} else if (nilai >= 60) {
 			System.out.println("C");
