@@ -2,7 +2,7 @@ package Pekan4;
 
 import java.util.Scanner;
 
-public class Ifelse {
+public class Ifelse1 {
 
 	public static void main(String[] args) {
 		double IPK;
