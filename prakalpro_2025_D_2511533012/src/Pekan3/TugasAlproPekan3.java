@@ -40,21 +40,23 @@ public class TugasAlproPekan3 {
 		// TODO Auto-generated method stub
 		Scanner input = new Scanner(System.in);
 		
-		double volume;
+		double volume, r;
 
-        // Input jari-jari
-        System.out.print("Masukkan jari-jari bola: ");
-        double r = input.nextDouble();
         
-        if(r > 0) {
-        	// Hitung volume bola
-        	volume = (4.0 / 3.0) * 3.14 * r * r * r;
-        	System.out.println("Volume bola = " + volume);
-        }else {
-            System.out.println("Jari-jari harus lebih besar dari 0!");
-        }
+        do {
+        	// Input jari-jari
+        	System.out.print("Masukkan jari-jari bola: ");
+        	r = input.nextDouble();
         
-        input.close();
+        	if(r <= 0) {
+        		System.out.println("Jari-jari harus lebih besar dari 0!");
+        	}
+        } while (r <= 0);
+        	
+        // Hitung volume bola
+       	volume = (4.0 / 3.0) * 3.14 * r * r * r;
+       	System.out.println("Volume bola = " + volume);
+        
 	}
 
 }
