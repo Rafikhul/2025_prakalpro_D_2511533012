@@ -30,10 +30,12 @@ public class tugasAlproPekan7_2511533012 {
     	if (!akun.isemailvalid()) {
     		System.out.println("\n--- REGISTRASI GAGAL ---");
     		System.out.println("Email anda \"" + akun.getemail() + "\" tidak valid harus mengandung '@' dan '.'" );
+            return;
     	}
     	if (!akun.ispinvalid()) {
     		System.out.println("\n--- REGISTRASI GAGAL ---");
     		System.out.println("Pin anda \"" + akun.getpin() + "\" tidak valid harus wajib 6 digit");
+            return;
     	}
     	
     	System.out.println("=======REGISTRASI BERHASIL=======");
@@ -51,3 +53,4 @@ public class tugasAlproPekan7_2511533012 {
 
     }
 }
+
