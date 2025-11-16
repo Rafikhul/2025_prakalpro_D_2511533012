@@ -12,7 +12,7 @@ public class tugasAlproPekan7_2511533012 {
     	System.out.print("Masukkan Username : ");
     	akun.setusername(input.nextLine());
     	
-    	System.out.print("Masukkan Password (Maksimal 8) : ");
+    	System.out.print("Masukkan Password (Maksimal 6) : ");
     	akun.setpassword(input.nextLine());
     	
     	System.out.print("Masukkan Email : ");
@@ -53,4 +53,5 @@ public class tugasAlproPekan7_2511533012 {
 
     }
 }
+
 
