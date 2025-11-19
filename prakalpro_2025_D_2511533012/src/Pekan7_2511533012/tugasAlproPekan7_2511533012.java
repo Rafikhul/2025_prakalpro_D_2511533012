@@ -24,18 +24,26 @@ public class tugasAlproPekan7_2511533012 {
     	
     	if(!akun.ispasswordvalid()) {
     		System.out.println("\n--- REGISTRASI GAGAL ---");
-    		System.out.println("Password minimal 8 baris");
+    		System.out.println("Password minimal 6 baris");
     		return;
     	}
     	if (!akun.isemailvalid()) {
     		System.out.println("\n--- REGISTRASI GAGAL ---");
     		System.out.println("Email anda \"" + akun.getemail() + "\" tidak valid harus mengandung '@' dan '.'" );
+<<<<<<< Upstream, based on branch 'master' of https://github.com/Rafikhul/2025_prakalpro_D_2511533012
             return;
+=======
+    		return;
+>>>>>>> 7a1972d Prakalpro Pekan8
     	}
     	if (!akun.ispinvalid()) {
     		System.out.println("\n--- REGISTRASI GAGAL ---");
     		System.out.println("Pin anda \"" + akun.getpin() + "\" tidak valid harus wajib 6 digit");
+<<<<<<< Upstream, based on branch 'master' of https://github.com/Rafikhul/2025_prakalpro_D_2511533012
             return;
+=======
+    		return;
+>>>>>>> 7a1972d Prakalpro Pekan8
     	}
     	
     	System.out.println("=======REGISTRASI BERHASIL=======");
@@ -44,12 +52,12 @@ public class tugasAlproPekan7_2511533012 {
     	    	
     	System.out.println("=======DETAIL AKUN=======");
     	System.out.println("Username (LowerCase) : " + akun.getusername().toLowerCase());
-    	System.out.println("Email (UpperCase) : " + akun.getemail().toUpperCase());
+    	System.out.println("Email (UpperCase)" + " " + " " + " " +  " : " + akun.getemail().toUpperCase());
     	System.out.println("ID Pengguna (Gabungan) : " + akun.getusername() + akun.getpin() + "\n");
     	
     	System.out.println("=======UJI TIPE DATA (PIN Anda: "+ akun.getpin() +")=======");
-    	System.out.println("PIN (int) + 10 \t= " + (akun.getpin() + 10) );
-    	System.out.println("PIN (String) + 10 = " + akun.getpin() + "10");
+    	System.out.println("PIN (int) + 10" + " " + " " + " " + " " + " " + " = "  + (akun.getpin() + 10) );
+    	System.out.println("PIN (String) + \"10\" = " + akun.getpin() + "10");
 
     }
 }
