@@ -14,7 +14,7 @@ public class OperatorLogika_2511533012 extends JFrame {
     public OperatorLogika_2511533012() {
     	getContentPane().setBackground(new Color(128, 0, 255));
 
-        setTitle("Demo Operator Logika");
+        setTitle("Operator Logika");
         setSize(400, 300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         getContentPane().setLayout(new FlowLayout());
