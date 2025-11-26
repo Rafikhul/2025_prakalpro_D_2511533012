@@ -30,20 +30,12 @@ public class tugasAlproPekan7_2511533012 {
     	if (!akun.isemailvalid()) {
     		System.out.println("\n--- REGISTRASI GAGAL ---");
     		System.out.println("Email anda \"" + akun.getemail() + "\" tidak valid harus mengandung '@' dan '.'" );
-<<<<<<< Upstream, based on branch 'master' of https://github.com/Rafikhul/2025_prakalpro_D_2511533012
             return;
-=======
-    		return;
->>>>>>> 7a1972d Prakalpro Pekan8
     	}
     	if (!akun.ispinvalid()) {
     		System.out.println("\n--- REGISTRASI GAGAL ---");
     		System.out.println("Pin anda \"" + akun.getpin() + "\" tidak valid harus wajib 6 digit");
-<<<<<<< Upstream, based on branch 'master' of https://github.com/Rafikhul/2025_prakalpro_D_2511533012
             return;
-=======
-    		return;
->>>>>>> 7a1972d Prakalpro Pekan8
     	}
     	
     	System.out.println("=======REGISTRASI BERHASIL=======");
